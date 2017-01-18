@@ -42,7 +42,7 @@ class MarkWikiApp(Flask):
         'DEBUG',
     ]
 
-    # For file stroage, the bootstrap token acts as an indicator that the wiki
+    # For file storage, the bootstrap token acts as an indicator that the wiki
     # has been bootstrapped before.
     bootstrapped_token_file = '.bootstrapped'
 
